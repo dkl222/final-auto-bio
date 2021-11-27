@@ -167,8 +167,13 @@ transform: none;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.2s;
 
     z-index: 3;
+}
+
+.toptitle:hover{
+    opacity: 0.6;
 }
 
 /* Top Bar */
@@ -324,6 +329,11 @@ span c{
     left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.gmail:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(172, 0, 0));
 }
 
 .instagram{
@@ -337,6 +347,11 @@ span c{
     left: 35%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.instagram:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 red);
 }
 
 .facebook{
@@ -350,6 +365,11 @@ span c{
     left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.facebook:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(0, 0, 255));
 }
 
 .discord{
@@ -363,6 +383,11 @@ span c{
     left: 35%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+    transition: 0.2s;
+}
+
+.discord:hover{
+    filter: opacity(0.4) drop-shadow(0 0 0 rgb(82, 82, 255));
 }
 
 /* Back to Top Box*/
@@ -375,6 +400,11 @@ span c{
     padding-left: 30px;
     padding-right: 30px;
     background-color: #212121;
+    transition: 0.2s;
+}
+
+.back-top:hover{
+    background-color: #111111;
 }
 
 .arrow{
@@ -418,7 +448,6 @@ span c{
 }
 
 .etc-front{
-    grid-column: 1/2;
     grid-row: 1/2;
 }
 
@@ -492,11 +521,11 @@ span c{
 
 .etc-span-answer{
     color: rgba(0, 0, 0, 0.0);
+    transition: 0.2s;
 }
 
 .etc-span-answer:hover{
     color: white;
-    transition: 0.2s;
 }
 
 .quote{
@@ -607,6 +636,11 @@ span c{
     padding-left: 30px;
     padding-right: 30px;
     background-color: #212121;
+    transition: 0.2s;
+}
+
+.etc-back-top:hover{
+    background-color: #111111;
 }
 
 .etc-arrow{
@@ -616,8 +650,7 @@ span c{
     margin-right: auto;
     min-width: 200px;
     max-width: 200px;
-    bottom: -4160px;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
 }
