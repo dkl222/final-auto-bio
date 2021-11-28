@@ -177,7 +177,6 @@ transform: none;
 
 /* Top Bar */
 .topbar{
-    display: block;
     position: fixed;
     z-index: 2;
     margin-left:auto;
@@ -438,7 +437,38 @@ span c{
 
 /* FAVORITES */
 
-/* Favorite Front */
+.fav-profile{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top:100px;
+    width: 50%;
+    min-width: 400px;
+    max-width:500px;
+    border-radius:70px;
+}
+
+.fav-title{
+    position: absolute;
+    font-size: 7em;
+    line-height: 20%;
+
+    /* Text box */
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:100%;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: #460A0F;
+}
+
+.fav-title b{
+    font-size: 10%;
+    font-weight: lighter;
+}
 
 
 /********************************/
@@ -466,7 +496,7 @@ span c{
     margin-left:auto;
     margin-right: auto;
     width: 50%;
-    min-width:350px;
+    min-width:400px;
     max-width:500px;
     border-radius: 70px;
     top: 380px;
