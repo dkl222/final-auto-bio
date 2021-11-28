@@ -3,7 +3,6 @@ html{
     scroll-behavior: smooth;
 }
 
-/* BG Color */
 body{
     margin: 0px;
 }
@@ -311,7 +310,7 @@ span c{
 /* Social Network Box*/
 .social{
     grid-column: 1/2;
-    grid-row: 6/7;
+    grid-row: 6/8;
     background-color: #000000;
     font-size: 40px;
     text-align: center;
@@ -393,7 +392,7 @@ span c{
 /* Back to Top Box*/
 .back-top{
     grid-column: 2/3;
-    grid-row: 6/7;
+    grid-row: 6/8;
     font-size: 3.5em;
     font-weight: 900;
     padding-top: 250px;
@@ -437,8 +436,17 @@ span c{
 /********************************/
 /********************************/
 
+/* FAVORITES */
+
+/* Favorite Front */
+
+
+/********************************/
+/********************************/
+
 /* EXTRAS */
 
+/* Grid for Extras */
 .grid-etc{
     display: grid;
     width: 100vw;
@@ -447,6 +455,7 @@ span c{
     grid-template-rows: 100vh repeat(25, 1fr) 50vh;
 }
 
+/* Extras Title Front */
 .etc-front{
     grid-row: 1/2;
 }
@@ -500,6 +509,7 @@ span c{
     font-size: 50%;
 }
 
+/* All Category Setup */
 .cell{
     margin-bottom: 10px;
     padding-left: 30px;
@@ -528,6 +538,7 @@ span c{
     color: white;
 }
 
+/* Elements for all Categories */
 .quote{
     grid-row: 2/3;
 }
@@ -628,11 +639,12 @@ span c{
     grid-row: 26/27;
 }
 
+/* Footer */
 .etc-back-top{
-    grid-row: 27/28;
+    grid-row: 27/29;
     font-size: 3.5em;
     font-weight: 900;
-    padding-top: 250px;
+    padding-top: 230px;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #212121;

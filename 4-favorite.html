@@ -4,9 +4,46 @@
         <meta charset="UTF-8">
         <title>Favorites</title>
         <link href="1-style.css" rel="stylesheet" type="text/css"/>
+
+        <style>
+            body{   
+                background-color: #651016;
+            }
+        </style>
     </head>
 
     <body>
-        <h1 style="color: white;">Favorite</h1>
+        <!--Enables back-to-top button function-->
+        <a name="top"></a>
+
+        <!--Hamburger Menu-->
+        <div>
+            <nav role="navigation">
+                <div id="menuToggle">
+                    <input type="checkbox" />
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                    <ul id="menu">
+                        <a id="time" href="2-timeline.html"><li>Timeline</li></a>
+                        <a id="port" href="3-portfolio.html"><li>Portfolio</li></a>
+                        <a id="fav" href="4-favorite.html"><li>Favorites</li></a>
+                        <a id="etc" href="5-etc.html"><li>Extras</li></a>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <!--Header-->
+        <a class="home toptitle" href="1-home.html">DKL</a>
+        <div class="home topbar"> </div>
+
+        <!--Front Menu-->
+        <div class="home fav-front"></div>
+        <img src="img/fav_profile.png">
+        <div class="home fav-title>">FAVORITES<br/>(Everyone is equally loved... Except you, TOM!)</div>
+        
     </body>
 </html>
