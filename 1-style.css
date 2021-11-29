@@ -192,9 +192,9 @@ transition: color 0.2s ease;
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
+    width: 80%;
     min-width:350px;
-    max-width:500px;
+    max-width: 500px;
     border-radius: 20px;
     top: 40%;
     left: 50%;
@@ -384,7 +384,7 @@ span c{
     grid-row: 5/7;
     font-size: 3.5em;
     font-weight: 900;
-    padding-top: 250px;
+    padding-top: 200px;
     padding-left: 30px;
     padding-right: 30px;
     background-color: #212121;
@@ -425,11 +425,11 @@ span c{
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
-    min-width:400px;
-    max-width:500px;
+    width: 80%;
+    min-width:350px;
+    max-width: 500px;
     border-radius: 70px;
-    top: 380px;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -586,11 +586,11 @@ span c{
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
-    min-width:400px;
-    max-width:500px;
+    width: 80%;
+    min-width:350px;
+    max-width: 500px;
     border-radius: 70px;
-    top: 380px;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -955,11 +955,11 @@ span c{
     display: block;
     margin-left:auto;
     margin-right: auto;
-    width: 50%;
-    min-width:400px;
-    max-width:500px;
+    width: 80%;
+    min-width:350px;
+    max-width: 500px;
     border-radius: 70px;
-    top: 380px;
+    top: 40%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
@@ -1155,4 +1155,11 @@ span c{
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -100%);
+}
+
+/********************************/
+/********************************/
+
+@media only screen and (max-width: 1080px){
+    
 }
