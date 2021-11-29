@@ -472,7 +472,7 @@ span c{
 }
 
 .port-img:hover{
-    opacity: 0.5;
+    filter: opacity(0.8) drop-shadow(0 0 0 black);
 }
 
 .port-img1{
