@@ -1159,18 +1159,3 @@ span c{
 
 /********************************/
 /********************************/
-
-@media (min-width:320px){
-    .arrow{
-        position: absolute;
-        display: block;
-        margin-left:auto;
-        margin-right: auto;
-        min-width: 200px;
-        max-width: 200px;
-        bottom: -945px;
-        left: 75%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-    }
-}
