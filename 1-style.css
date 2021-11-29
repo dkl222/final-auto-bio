@@ -343,13 +343,13 @@ span c{
 }
 
 .facebook{
-    position: absolute;
+    position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     min-width: 90px;
     max-width: 90px;
-    bottom: -1030px;
+    bottom: 0px;
     left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
