@@ -1153,7 +1153,15 @@ span c{
 @media only screen and (max-width: 375px){
     /* Homepage */
     .gmail{
-        top: 1810px;
+    position: absolute;
+    display: block;
+    min-width: 100px;
+    max-width: 100px;
+    top: 1810px;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    transition: 0.2s;
     }
     
     .instagram{
