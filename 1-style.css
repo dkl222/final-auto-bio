@@ -1153,14 +1153,6 @@ span c{
 @media only screen and (-webkit-min-device-pixel-ratio: 3){
     /* Homepage */
     .gmail{
-        position: absolute;
-        display: block;
-        min-width: 90px;
-        max-width: 90px;
-        top: 2070px;
-        left: 15%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        transition: 0.2s;
+        top: 2370px;
     }
 }
