@@ -548,6 +548,8 @@ span c{
     display: block;
     margin-left:auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     min-width: 200px;
     max-width: 200px;
     left: 50%;
@@ -915,6 +917,8 @@ span c{
     display: block;
     margin-left:auto;
     margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
     min-width: 200px;
     max-width: 200px;
     left: 50%;
