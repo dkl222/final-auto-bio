@@ -1160,8 +1160,44 @@ span c{
         display: block;
         min-width: 90px;
         max-width: 90px;
-        top: 2570px;
+        top: 2770px;
         left: 15%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: 0.2s;
+    }
+
+    .instagram{
+        position: absolute;
+        display: block;
+        min-width: 90px;
+        max-width: 90px;
+        top: 2570px;
+        left: 35%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: 0.2s;
+    }
+    
+    .facebook{
+        position: absolute;
+        display: block;
+        min-width: 90px;
+        max-width: 90px;
+        top: 2360px;
+        left: 15%;
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        transition: 0.2s;
+    }
+    
+    .discord{
+        position: absolute;
+        display: block;
+        min-width: 90px;
+        max-width: 90px;
+        top: 2170px;
+        left: 35%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         transition: 0.2s;
