@@ -143,7 +143,7 @@ transition: color 0.2s ease;
     width: 100vw;
     height: 100vh;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 100vh 200px 200px 200px 50vw;
+    grid-template-rows: 100vh 200px 200px 200px 50vh;
 }
 
 /* All cells */
@@ -307,14 +307,12 @@ span c{
 }
 
 .gmail{
-    position: absolute;
+    position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     min-width: 90px;
     max-width: 90px;
-    bottom: -830px;
-    left: 15%;
+    top: 0%;
+    left: 30%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -325,14 +323,12 @@ span c{
 }
 
 .instagram{
-    position: absolute;
+    position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     min-width: 90px;
     max-width: 90px;
-    bottom: -830px;
-    left: 35%;
+    top: -10%;
+    left: 70%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -345,12 +341,10 @@ span c{
 .facebook{
     position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     min-width: 90px;
     max-width: 90px;
-    bottom: 0px;
-    left: 15%;
+    top: 10%;
+    left: 30%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -361,14 +355,12 @@ span c{
 }
 
 .discord{
-    position: absolute;
+    position: relative;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
     min-width: 90px;
     max-width: 90px;
-    bottom: -1030px;
-    left: 35%;
+    top: -10%;
+    left: 70%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -396,14 +388,12 @@ span c{
 }
 
 .arrow{
-    position: absolute;
+    position: relative;
     display: block;
-    margin-left:auto;
-    margin-right: auto;
     min-width: 200px;
     max-width: 200px;
-    bottom: -945px;
-    left: 75%;
+    top: 0%;
+    left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
@@ -1161,17 +1151,5 @@ span c{
 /********************************/
 
 @media only screen and (max-width: 375px){
-    .facebook{
-        position: absolute;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        min-width: 90px;
-        max-width: 90px;
-        bottom: -1230px;
-        left: 15%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        transition: 0.2s;
-    }
+    
 }
