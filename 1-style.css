@@ -309,10 +309,10 @@ span c{
 .gmail{
     position: absolute;
     display: block;
-    min-width: 100px;
-    max-width: 100px;
-    top: 1610px;
-    left: 25%;
+    min-width: 90px;
+    max-width: 90px;
+    top: 1670px;
+    left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -325,10 +325,10 @@ span c{
 .instagram{
     position: absolute;
     display: block;
-    min-width: 100px;
-    max-width: 100px;
-    top: 1720px;
-    left: 25%;
+    min-width: 90px;
+    max-width: 90px;
+    top: 1670px;
+    left: 35%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -341,10 +341,10 @@ span c{
 .facebook{
     position: absolute;
     display: block;
-    min-width: 100px;
-    max-width: 100px;
-    top: 1830px;
-    left: 25%;
+    min-width: 90px;
+    max-width: 90px;
+    top: 1860px;
+    left: 15%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -357,10 +357,10 @@ span c{
 .discord{
     position: absolute;
     display: block;
-    min-width: 100px;
-    max-width: 100px;
-    top: 1940px;
-    left: 25%;
+    min-width: 90px;
+    max-width: 90px;
+    top: 1870px;
+    left: 35%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
     transition: 0.2s;
@@ -1150,64 +1150,17 @@ span c{
 /********************************/
 /********************************/
 
-@media only screen and (max-width: 375px){
+@media only screen and (-webkit-min-device-pixel-ratio: 3){
     /* Homepage */
     .gmail{
-    position: absolute;
-    display: block;
-    min-width: 100px;
-    max-width: 100px;
-    top: 1810px;
-    left: 25%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    transition: 0.2s;
-    }
-    
-    .instagram{
         position: absolute;
         display: block;
-        min-width: 100px;
-        max-width: 100px;
-        top: 1720px;
-        left: 25%;
+        min-width: 90px;
+        max-width: 90px;
+        top: 2070px;
+        left: 15%;
         -ms-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         transition: 0.2s;
-    }
-    
-    .facebook{
-        position: absolute;
-        display: block;
-        min-width: 100px;
-        max-width: 100px;
-        top: 1830px;
-        left: 25%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        transition: 0.2s;
-    }
-    
-    .discord{
-        position: absolute;
-        display: block;
-        min-width: 100px;
-        max-width: 100px;
-        top: 1940px;
-        left: 25%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
-        transition: 0.2s;
-    }
-
-    .arrow{
-        position: absolute;
-        display: block;
-        min-width: 200px;
-        max-width: 200px;
-        top: 1680px;
-        left: 75%;
-        -ms-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
     }
 }
